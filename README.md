@@ -1,9 +1,9 @@
 ## Description
 
-_Create a library of commonly used JavaScript/Jquery/Lodash/Underscore methods with Documentation and commenting using ES2015, publish the code as a package to NPM.
+Select a set of 15 lodash functions and rewrite them in JavaScript ES2015, using test-driven development, and publish the code as a package to NPM.
 ## Context
 
-_This goal is important in learning JavaScript and understanding how high level developer's write code for others to use and to understand ES2015.  This code will be used by other developers to make their jobs easier. The questions that this project will raise is how do we write packages that are easy to understand out of the box and simple to use right away. how to publish a package to NPM?._
+Completing this goal will deepen our understanding of JavaScript and ES2015 and provide practice with the principles of Test Driven Development and NPM.
 
 ## Specifications
 
@@ -11,16 +11,9 @@ _List of specifications (specs) for the completed goal. These are declarative se
 
 ### Required
 
-- [ ] Pick commonly used methods to rewrite in ES2015.
-- [ ] Create a ReadMe that describes each method and provides an example of use. 
+- [ ] Rewrite 15 lodash functions in ES2015.
 - [ ] Publish package to NPM.
-- [ ] Write tests for those methods described.
-
-
-### Optional
-
-- [ ] Showcase methods in a simple website app (optional)_.
-
+- [ ] Write tests for the methods described.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ---
