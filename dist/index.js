@@ -3,7 +3,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const d3 = require('d3');
 
 app.set('port', process.env.PORT || 3000);
 

@@ -1,7 +1,7 @@
 {
   "name": "edmm-js-utils",
-  "version": "0.9.0",
-  "description": "A collection of D3 functions developed by Learners Guild learners in week 3",
+  "version": "0.9.1",
+  "description": "A collection of lodash functions developed by Learners Guild learners in week 3",
   "main": "index.js",
   "scripts": {
     "buildwatch": "babel src -w --out-dir dist --copy-files",
@@ -16,11 +16,9 @@
     "standard": "^7.1.2"
   },
   "dependencies": {
-    "angular": "^1.5.7",
     "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
-    "d3": "^4.1.1",
-    "express": "^4.14.0",
+    "lodash": "^4.14.0",
     "nodemon": "^1.9.2",
     "standard": "^7.1.2"
   }
