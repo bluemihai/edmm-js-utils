@@ -1,5 +1,6 @@
 'use strict'
 
+// arrays
 const reverseArray = arr => {
   let output = []
   for (let i = 0; i < (arr.length); ++i ) {
@@ -8,6 +9,7 @@ const reverseArray = arr => {
   return output
 }
 
+// math
 const sumArray = arr => {
   let output = 0
   for (let i = 0; i < (arr.length); ++i ) {
@@ -20,12 +22,23 @@ const sumByArray = (arr, key) => {
   let output = 0
   for (let arrValue of arr) {
     output += arrValue[key]
-    console.log(arrValue[key])
   }
-  // console.log(output)
   return output
 }
 
-export { reverseArray }
-export { sumArray }
-export { sumByArray }
+// strings
+const firstLetterCapital = (word) => {
+  let arr = word.split('')
+  let number = arr[0].charCodeAt()
+  if(number > 90){
+    arr[0] = String.fromCharCode(number - 32)
+  }
+  return arr.join('')
+}
+
+export {
+  reverseArray,
+  sumArray,
+  sumByArray,
+  firstLetterCapital
+}
