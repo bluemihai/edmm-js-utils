@@ -3,6 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+var random = function random(upper) {
+  var fraction = Math.random() * (upper + 1);
+  return Math.floor(fraction);
+};
+
 var reverseArray = function reverseArray(arr) {
   var output = [];
   for (var i = 0; i < arr.length; ++i) {
@@ -30,9 +35,7 @@ var sumByArray = function sumByArray(arr, key) {
       var arrValue = _step.value;
 
       output += arrValue[key];
-      console.log(arrValue[key]);
     }
-    // console.log(output)
   } catch (err) {
     _didIteratorError = true;
     _iteratorError = err;
@@ -51,6 +54,7 @@ var sumByArray = function sumByArray(arr, key) {
   return output;
 };
 
+exports.random = random;
 exports.reverseArray = reverseArray;
 exports.sumArray = sumArray;
 exports.sumByArray = sumByArray;
