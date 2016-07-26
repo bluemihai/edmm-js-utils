@@ -1,8 +1,8 @@
 const _ = require('lodash')
 const edmm = require('../edmm.js')
 
-describe("Focused specs", () => {  
-  it("foobar", () => {
+describe("random", () => {
+  it("it return number in expected range", () => {
     // From http://stackoverflow.com/questions/3746725/create-a-javascript-array-containing-1-n
     let foo = Array.from(Array(30).keys())
     let randoms = foo.map(k => edmm.random(6))
@@ -55,5 +55,26 @@ describe("sumByArray", () => {
     const copy = Object.assign( [], objects )
     const lodashSumBy = _.sumBy( copy, key )
     expect( edmm.sumByArray(objects, key) ).toEqual( lodashSumBy )
+  })
+})
+
+describe("firstLetterCapital", () => {
+
+  it('capitalize the first letter of the given string', () => {
+    expect( edmm.firstLetterCapital('apple') ).toEqual( 'Apple' )
+  })
+
+  it('if first letter capitalize skip', () => {
+    expect( edmm.firstLetterCapital( 'Apple' ) ).toEqual( 'Apple' )
+  })
+
+  it('if first letter capitalize skip', () => {
+    expect( edmm.firstLetterCapital( '9pple' ) ).toEqual( '9pple' )
+  })
+
+  it('capitalize from lodash', () => {
+    const word = 'apple'
+    const lodashCapital = _.capitalize( word )
+    expect( edmm.firstLetterCapital(word) ).toEqual( lodashCapital )
   })
 })

@@ -5,6 +5,7 @@ const random = (upper) => {
   return Math.floor(fraction)
 }
 
+// arrays
 const reverseArray = arr => {
   let output = []
   for (let i = 0; i < (arr.length); ++i ) {
@@ -13,6 +14,7 @@ const reverseArray = arr => {
   return output
 }
 
+// math
 const sumArray = arr => {
   let output = 0
   for (let i = 0; i < (arr.length); ++i ) {
@@ -29,4 +31,20 @@ const sumByArray = (arr, key) => {
   return output
 }
 
-export { random, reverseArray, sumArray, sumByArray }
+// strings
+const firstLetterCapital = (word) => {
+  let arr = word.split('')
+  let number = arr[0].charCodeAt()
+  if(number > 90){
+    arr[0] = String.fromCharCode(number - 32)
+  }
+  return arr.join('')
+}
+
+export {
+  reverseArray,
+  sumArray,
+  sumByArray,
+  firstLetterCapital,
+  random
+}
