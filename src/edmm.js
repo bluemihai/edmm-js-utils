@@ -1,5 +1,10 @@
 'use strict'
 
+const random = (upper) => {
+  let fraction = Math.random() * (upper + 1)
+  return Math.floor(fraction)
+}
+
 const reverseArray = arr => {
   let output = []
   for (let i = 0; i < (arr.length); ++i ) {
@@ -20,12 +25,8 @@ const sumByArray = (arr, key) => {
   let output = 0
   for (let arrValue of arr) {
     output += arrValue[key]
-    console.log(arrValue[key])
   }
-  // console.log(output)
   return output
 }
 
-export { reverseArray }
-export { sumArray }
-export { sumByArray }
+export { random, reverseArray, sumArray, sumByArray }
