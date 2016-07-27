@@ -1,7 +1,6 @@
 const _ = require('lodash')
 const edmm = require('../lib/sumArray.js')
 
-
 describe("sumArray", () => {
   const a = [7, 2, 0, 8, 3, 5]
   it("checks that the array gets summed", () => {

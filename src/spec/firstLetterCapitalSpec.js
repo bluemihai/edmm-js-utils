@@ -1,7 +1,6 @@
 const _ = require('lodash')
 const edmm = require('../lib/firstLetterCapital.js')
 
-
 describe("firstLetterCapital", () => {
 
   it('capitalize the first letter of the given string', () => {
