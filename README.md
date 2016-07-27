@@ -11,10 +11,23 @@ _List of specifications (specs) for the completed goal. These are declarative se
 
 ### Required
 
-- [ ] Rewrite 15 lodash functions in ES2015.
+- [ ] Rewrite 35 lodash functions in ES2015.
 - [ ] Publish package to NPM.
 - [ ] Write tests for the methods described.
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+
+### List of the functions
+
+- [ ] firstLetterCapital
+- [ ] pick
+- [ ] random
+- [ ] reverseArray
+- [ ] sortedIndex
+- [ ] sumArray
+- [ ] sumByArray
+- [ ] trim
+- [ ] zip
 
 ---
 
