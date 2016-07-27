@@ -2,7 +2,16 @@ import _ from 'lodash'
 import {take} from '../lib/take.js'
 
 describe("take", () => {
+  let arr = [1, 2, 3, 4]
   it("Creates a slice of array with n elements taken from the beginning.", () => {
-    expect(take( [1, 2, 3, 4], 2 ) ).toEqual( [1, 2] )
+    expect(take( arr, 2 ) ).toEqual( [1, 2] )
+  })
+
+  it("if you pass zero number it should return a empty array", () => {
+    expect(take( arr, 0 ) ).toEqual( [] )
+  })
+
+  it("if you don't pass any number it should take one number.", () => {
+    expect(take( arr ) ).toEqual( [1] )
   })
 })
