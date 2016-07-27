@@ -2,11 +2,7 @@
 
 const pick = (obj, arr) => {
   const newObj = {}
-
-  arr.map((x) => {
-    newObj[x] = obj[x]
-  })
-
+  arr.map((x) => newObj[x] = obj[x] )
   return newObj
 }
 

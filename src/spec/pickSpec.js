@@ -6,14 +6,11 @@ describe("pick", () => {
   const arr = ['a', 'b']
 
   it("creates an object composed of the picked object properties", () => {
-
     expect(pick(obj, arr)).toEqual({ 'a': 1, 'b': '2' })
   })
 
-  // Additional optional test to ensure more precise lodash duplication.
-  // it("checks that the output is the same as lodash's output", () => {
-  //   const copy = Object.assign( [], a )
-  //   const lodashReversed = _.reverse( copy )
-  //   expect( edmm.reverseArray(a) ).toEqual( lodashReversed )
-  // })
+  it("checks lodashs pick method against ours", () => {
+    const lodashPick = _.pick( obj, arr )
+    expect( pick( obj, arr ) ).toEqual( lodashPick )
+  })
 })
