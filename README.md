@@ -28,6 +28,7 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] sumByArray
 - [ ] trim
 - [ ] zip
+- [ ] repeat
 
 ---
 
