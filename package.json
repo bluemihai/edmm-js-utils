@@ -1,6 +1,6 @@
 {
   "name": "edmm-js-utils",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "A collection of lodash functions developed by Learners Guild learners in week 3",
   "main": "dist/edmm.js",
   "files": [
