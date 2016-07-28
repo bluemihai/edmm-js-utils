@@ -1,6 +1,6 @@
 'use strict'
 
-const size = object => {
+export default (object) => {
   let counter = 0
   if (typeof object === 'string') {
     object = object.split("")
@@ -11,5 +11,3 @@ const size = object => {
   object.forEach( x => counter++)
   return counter
 }
-
-export { size }

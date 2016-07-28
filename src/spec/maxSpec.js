@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import { max } from '../lib/max.js'
+import { default as edmm } from '../edmm.js'
+
+const max = edmm.max
 
 describe("max", () => {
   it("Computes the maximum value of array.", () => {

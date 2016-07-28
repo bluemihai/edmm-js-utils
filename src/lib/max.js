@@ -1,6 +1,6 @@
 'use strict'
 
-const max = arr => {
+export default (arr) => {
   let check = arr[0]
   if (arr === [] || arr === false) {
     return undefined
@@ -12,5 +12,3 @@ const max = arr => {
   }
   return check
 }
-
-export { max }

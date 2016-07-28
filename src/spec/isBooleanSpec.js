@@ -1,8 +1,9 @@
 const _ = require('lodash')
-const edmm = require('../lib/isBoolean.js')
+import { default as edmm } from '../edmm'
+
+const isBoolean = edmm.isBoolean
 
 describe("isBoolean", () => {
-
   it('isBoolean true condition', () => {
     const isBool = true
     expect( edmm.isBoolean(isBool) ).toEqual( true )

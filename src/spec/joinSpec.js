@@ -1,8 +1,9 @@
 const _ = require('lodash')
-const edmm = require('../lib/join.js')
+import { default as edmm } from '../edmm.js'
+
+const join = edmm.join
 
 describe("join", () => {
-
   it('join the first letter of the given string', () => {
     const arr = ['a', 'b', 'c']
     const sep = " "

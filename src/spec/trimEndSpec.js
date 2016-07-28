@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import { trimEnd } from '../lib/trimEnd.js'
+import { default as edmm } from '../edmm.js'
+
+const trimEnd = edmm.trimEnd
 
 describe("trim", () => {
   const str = '-_-abc-_-'

@@ -1,7 +1,5 @@
 'use strict'
 
-const multiply = (first, second) => {
+export default (first, second) => {
   return (first * second)
 }
-
-export { multiply }

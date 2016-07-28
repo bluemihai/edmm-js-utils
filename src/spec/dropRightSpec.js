@@ -1,4 +1,5 @@
-import { dropRight } from '../lib/dropRight.js'
+import { default as edmm } from '../edmm.js'
+const dropRight = edmm.dropRight
 
 describe("dropRight", () => {
   it("Creates a slice of array with n elements dropped from the end.", () => {

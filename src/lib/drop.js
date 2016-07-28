@@ -1,6 +1,6 @@
 'use strict'
 
-const drop = (arr, n) => {
+export default (arr, n) => {
 
   const newArr = []
   for (let i = n; i < arr.length; ++i) {
@@ -8,6 +8,3 @@ const drop = (arr, n) => {
   }
   return newArr
 }
-
-
-export { drop }

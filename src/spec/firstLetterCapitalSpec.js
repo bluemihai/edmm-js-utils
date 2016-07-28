@@ -1,8 +1,9 @@
 const _ = require('lodash')
-const edmm = require('../lib/firstLetterCapital.js')
+import { default as edmm } from '../edmm.js'
+
+const firstLetterCapital = edmm.firstLetterCapital
 
 describe("firstLetterCapital", () => {
-
   it('capitalize the first letter of the given string', () => {
     expect( edmm.firstLetterCapital('apple') ).toEqual( 'Apple' )
   })

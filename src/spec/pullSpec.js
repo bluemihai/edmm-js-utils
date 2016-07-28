@@ -1,5 +1,8 @@
 import _ from 'lodash'
-import { pull } from '../lib/pull.js'
+import { default as edmm } from '../edmm.js'
+
+const pull = edmm.pull
+
 describe("pull", () => {
  const dev = ['D', 'e', 'v', 'l', 'o', 'p']
  const L = 'l'

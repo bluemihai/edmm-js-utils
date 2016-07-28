@@ -1,6 +1,6 @@
 'use strict'
 
-const takeRight = (arr, num = 1) => {
+export default (arr, num = 1) => {
   let output = []
   let counter = [...Array(num).keys()]
   counter.map(idx => {
@@ -8,5 +8,3 @@ const takeRight = (arr, num = 1) => {
   })  
   return output
 }
-
-export { takeRight }

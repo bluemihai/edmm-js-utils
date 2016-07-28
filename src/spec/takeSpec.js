@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import {take} from '../lib/take.js'
+import { default as edmm } from '../edmm.js'
+
+const take = edmm.take
 
 describe("take", () => {
   let arr = [1, 2, 3, 4]

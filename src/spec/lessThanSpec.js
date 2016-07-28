@@ -1,5 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/lessThan.js')
+import { default as edmm } from '../edmm.js'
+
+const lessThan = edmm.lessThan
 
 describe("lessThan", () => {
   it('Not a number test', () => {

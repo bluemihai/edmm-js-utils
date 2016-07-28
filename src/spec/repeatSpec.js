@@ -1,8 +1,9 @@
 const _ = require('lodash')
-const edmm = require('../lib/repeat.js')
+import { default as edmm } from '../edmm.js'
+
+const repeat = edmm.repeat
 
 describe("repeat", () => {
-
   it('Repeat zero times', () => {
     const str = 'apple'
     const n = 0

@@ -1,6 +1,6 @@
 'use strict'
 
-const sortedIndex = (arr, num) => {
+export default (arr, num) => {
     for ( let i=0; i < arr.length; i++ ) {
       if (arr[i] > num) {
         //arr.splice(i, 0 , num)
@@ -9,5 +9,3 @@ const sortedIndex = (arr, num) => {
     }
     return (arr.length -1)
 }
-
-export { sortedIndex }

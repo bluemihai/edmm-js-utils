@@ -1,9 +1,6 @@
 'use strict'
 
-const last = (arr) => {
+export default (arr) => {
   let result = arr[(arr.length - 1)]
   return result
 }
-
-
-export { last }

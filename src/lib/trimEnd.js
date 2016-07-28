@@ -1,6 +1,6 @@
 'use strict'
 
-const trimEnd = (str, char) => {
+export default (str, char) => {
  let arr = str.split('')
  let charArr = char.split('')
  let newArr = []
@@ -14,5 +14,3 @@ const trimEnd = (str, char) => {
  })
  return arr.join('')
 }
-
-export { trimEnd }

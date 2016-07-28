@@ -1,6 +1,6 @@
 'use strict'
 
-const take = (arr, num = 1) => {
+export default (arr, num = 1) => {
   let output = []
   arr.forEach(ArrayFunc)
   function ArrayFunc(element, index, array) {
@@ -11,6 +11,3 @@ const take = (arr, num = 1) => {
 
   return output
 }
-
-
-export { take }

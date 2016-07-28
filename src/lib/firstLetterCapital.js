@@ -1,6 +1,6 @@
 'use strict'
 
-const firstLetterCapital = (word) => {
+export default (word) => {
   let arr = word.split('')
   let number = arr[0].charCodeAt()
   if(number > 90){
@@ -8,5 +8,3 @@ const firstLetterCapital = (word) => {
   }
   return arr.join('')
 }
-
-export { firstLetterCapital }

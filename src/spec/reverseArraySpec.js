@@ -1,6 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/reverseArray.js')
+import { default as edmm } from '../edmm.js'
 
+const reverseArray = edmm.reverseArray
 
 describe("reverseArray", () => {
   const a = [7, 2, 0, 8, 3, 5]

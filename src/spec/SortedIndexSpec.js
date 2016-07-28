@@ -1,5 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/sortedIndex.js')
+import { default as edmm } from '../edmm.js'
+
+const sortedIndex = edmm.sortedIndex
 
 describe("sortedIndex", () => {
   it("Returns the index at which value should be inserted into array", () => {

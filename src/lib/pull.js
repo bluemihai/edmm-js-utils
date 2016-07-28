@@ -1,6 +1,6 @@
 'use strict'
 
-const pull = function(arr) {
+export default function (arr) {
   const args = [...arguments]
 
   arr.map((x) => {
@@ -16,5 +16,3 @@ const pull = function(arr) {
 
   return arr
 }
-
-export { pull }

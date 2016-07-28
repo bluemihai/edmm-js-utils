@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import {size} from '../lib/size.js'
+import { default as edmm } from '../edmm.js'
+
+const size = edmm.size
 
 describe("size", () => {
   it("Gets the size of Array by returning its length", () => {

@@ -1,5 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/sumArray.js')
+import { default as edmm } from '../edmm.js'
+
+const sumArray = edmm.sumArray
 
 describe("sumArray", () => {
   const a = [7, 2, 0, 8, 3, 5]

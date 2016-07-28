@@ -1,5 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/random.js')
+import { default as edmm } from '../edmm.js'
+
+const random = edmm.random
 
 describe("random", () => {
   it("it return number in expected range", () => {

@@ -1,6 +1,6 @@
 'use strict'
 
-const repeat = (str, n) => {
+export default (str, n) => {
   // let arr = str.split('')
   // console.log("whaaats up");
   let newStr = ""
@@ -11,5 +11,3 @@ const repeat = (str, n) => {
   // console.log(x);
   return newStr
 }
-
-export { repeat }

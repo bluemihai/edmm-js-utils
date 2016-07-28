@@ -1,6 +1,6 @@
 'use strict'
 
-const zip = function () {
+export default function () {
   let values = Object.keys(arguments).map(key => arguments[key])
   let valueLengths = values.map(value => value.length)
 
@@ -16,18 +16,4 @@ const zip = function () {
   return uncompact.map(array => {
     return array.filter(item => item != null)
   })
-
 }
-
-
-export { zip }
-
-
-// let output = []
-// for (let i = 0; i < arguments.length; i++) {
-//   for (let j = 0; j < arguments[i].length; j++) {
-//     output.splice(j, 0, arguments[i][j])
-//   }
-// }
-  // console.log("arguments ", arguments)
-// return 1

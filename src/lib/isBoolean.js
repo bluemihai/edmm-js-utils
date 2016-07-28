@@ -1,9 +1,6 @@
 'use strict'
 
-const isBoolean = (arg) => {
-
+export default (arg) => {
   if (arg === (true || false)) {return true}
   else {return false}
 }
-
-export { isBoolean }

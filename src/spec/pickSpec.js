@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import { pick } from '../lib/pick.js'
+import { default as edmm } from '../edmm.js'
+
+const pick = edmm.pick
 
 describe("pick", () => {
   const obj = { 'a': 1, 'b': '2', 'c': 3 }

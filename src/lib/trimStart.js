@@ -1,6 +1,6 @@
 'use strict'
 
-const trimStart = (str, char) => {
+export default (str, char) => {
   let output = ''
   for(var i in str){
     let check = 0
@@ -19,6 +19,3 @@ const trimStart = (str, char) => {
   }
   return output
 }
-
-
-export { trimStart }

@@ -1,8 +1,9 @@
 import _ from 'lodash'
-import { allUpperCase } from '../lib/allUpperCase.js'
+import { default as edmm } from '../edmm.js'
+
+const allUpperCase = edmm.allUpperCase
 
 describe("allUpperCase", () => {
-
   it('Converts string, as a whole, to upper case', () => {
     expect( allUpperCase('apple') ).toEqual( 'APPLE' )
   })

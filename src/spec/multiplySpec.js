@@ -1,5 +1,7 @@
 const _ = require('lodash')
-const edmm = require('../lib/multiply.js')
+import { default as edmm } from '../edmm.js'
+
+const multiply = edmm.multiply
 
 describe("multiply", () => {
 

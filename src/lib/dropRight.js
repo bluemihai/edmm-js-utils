@@ -1,9 +1,6 @@
 'use strict'
 
-const dropRight = (arr, n) => {
+export default (arr, n) => {
   arr.splice(-n, n)
   return arr
 }
-
-
-export { dropRight }

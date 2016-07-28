@@ -1,5 +1,6 @@
-import _ from 'lodash'
-import {zip} from '../lib/zip.js'
+import { default as edmm } from '../edmm.js'
+
+const zip = edmm.zip
 
 describe("zip", () => {
   it("Returns the new array of grouped elements.", () => {

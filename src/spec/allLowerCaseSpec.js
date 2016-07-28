@@ -1,8 +1,9 @@
 import _ from 'lodash'
-import { allLowerCase } from '../lib/allLowerCase.js'
+import { default as edmm } from '../edmm.js'
+
+const allLowerCase = edmm.allLowerCase
 
 describe("allLowerCase", () => {
-
   it('Converts string, as a whole, to lower case', () => {
     expect( allLowerCase('APPLE') ).toEqual( 'apple' )
   })

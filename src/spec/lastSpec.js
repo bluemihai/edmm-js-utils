@@ -1,9 +1,9 @@
 import _ from 'lodash'
-import { last } from '../lib/last.js'
+import { default as edmm } from '../edmm.js'
+
+const last = edmm.last
 
 describe("last", () => {
-
-
   it("Returns the last element of an array.", () => {
     const arr = [1, 2, 3]
     expect(last(arr)).toEqual(3)

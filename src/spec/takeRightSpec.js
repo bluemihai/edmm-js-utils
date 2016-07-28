@@ -1,5 +1,7 @@
 import _ from 'lodash'
-import {takeRight} from '../lib/takeRight.js'
+import { default as edmm } from '../edmm.js'
+
+const takeRight = edmm.takeRight
 
 describe("takeRight", () => {
   it("Creates a slice of array with n elements taken from the end.", () => {
