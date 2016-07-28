@@ -29,6 +29,7 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] trim
 - [ ] zip
 - [ ] repeat
+- [ ] join
 
 ---
 
