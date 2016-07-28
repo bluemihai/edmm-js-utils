@@ -1,6 +1,6 @@
 'use strict'
 
-const trim = (str, char) => {
+const trimStart = (str, char) => {
   let output = ''
   for(var i in str){
     let check = 0
@@ -8,7 +8,11 @@ const trim = (str, char) => {
       if (str[i] !== char[j]) {
         check++
         if (check === 2) {
-          output += str[i]
+          while (str.length > i) {
+            output += str[i]
+            i++
+          }
+          return output
         }
       }
     }
@@ -17,5 +21,4 @@ const trim = (str, char) => {
 }
 
 
-
-export { trim }
+export { trimStart }

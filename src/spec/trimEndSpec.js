@@ -1,16 +1,16 @@
 import _ from 'lodash'
-import { trim } from '../lib/trim.js'
+import { trimEnd } from '../lib/trimEnd.js'
 
 describe("trim", () => {
   const str = '-_-abc-_-'
   const char = '_-'
 
   it("Removes leading and trailing whitespace or specified characters from string.", () => {
-    expect(trim(str, char)).toEqual('abc')
+    expect(trimEnd(str, char)).toEqual('-_-abc')
   })
 
   it("checks lodashs trim method against ours", () => {
-    const lodashTrim = _.trim( str, char )
-    expect( trim( str, char ) ).toEqual( lodashTrim )
+    const lodashTrim = _.trimEnd( str, char )
+    expect( trimEnd( str, char ) ).toEqual( lodashTrim )
   })
 })
