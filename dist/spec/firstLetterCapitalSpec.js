@@ -23,4 +23,3 @@ describe("firstLetterCapital", function () {
     expect(edmm.firstLetterCapital(word)).toEqual(lodashCapital);
   });
 });
-//# sourceMappingURL=firstLetterCapitalSpec.js.map

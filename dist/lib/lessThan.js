@@ -12,4 +12,3 @@ var lessThan = function lessThan(first, second) {
 };
 
 exports.lessThan = lessThan;
-//# sourceMappingURL=lessThan.js.map

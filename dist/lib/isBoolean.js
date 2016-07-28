@@ -13,4 +13,3 @@ var isBoolean = function isBoolean(arg) {
 };
 
 exports.isBoolean = isBoolean;
-//# sourceMappingURL=isBoolean.js.map

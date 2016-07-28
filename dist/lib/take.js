@@ -18,4 +18,3 @@ var take = function take(arr) {
 };
 
 exports.take = take;
-//# sourceMappingURL=take.js.map

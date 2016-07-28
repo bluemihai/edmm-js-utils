@@ -9,4 +9,3 @@ var random = function random(upper) {
 };
 
 exports.random = random;
-//# sourceMappingURL=random.js.map

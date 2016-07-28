@@ -13,4 +13,3 @@ var firstLetterCapital = function firstLetterCapital(word) {
 };
 
 exports.firstLetterCapital = firstLetterCapital;
-//# sourceMappingURL=firstLetterCapital.js.map

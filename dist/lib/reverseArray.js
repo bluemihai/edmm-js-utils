@@ -12,4 +12,3 @@ var reverseArray = function reverseArray(arr) {
 };
 
 exports.reverseArray = reverseArray;
-//# sourceMappingURL=reverseArray.js.map

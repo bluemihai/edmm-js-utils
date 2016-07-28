@@ -24,4 +24,3 @@ var trimStart = function trimStart(str, char) {
 };
 
 exports.trimStart = trimStart;
-//# sourceMappingURL=trimStart.js.map

@@ -21,4 +21,3 @@ describe("pick", function () {
     expect((0, _pick.pick)(obj, arr)).toEqual(lodashPick);
   });
 });
-//# sourceMappingURL=pickSpec.js.map

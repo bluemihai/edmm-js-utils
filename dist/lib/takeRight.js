@@ -18,4 +18,3 @@ var takeRight = function takeRight(arr) {
 };
 
 exports.takeRight = takeRight;
-//# sourceMappingURL=takeRight.js.map

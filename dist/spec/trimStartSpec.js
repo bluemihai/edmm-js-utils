@@ -21,4 +21,3 @@ describe("trimStart", function () {
     expect((0, _trimStart.trimStart)(str, char)).toEqual(lodashTrim);
   });
 });
-//# sourceMappingURL=trimStartSpec.js.map

@@ -14,4 +14,3 @@ describe("zip", function () {
     expect((0, _zip.zip)(['a', 'b', 'c'], [1, 2, 3, 4], [true, false])).toEqual(expected);
   });
 });
-//# sourceMappingURL=zipSpec.js.map

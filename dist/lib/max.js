@@ -3,17 +3,22 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var sumByArray = function sumByArray(arr, key) {
-  var output = 0;
+var max = function max(arr) {
+  var check = arr[0];
+  if (arr === [] || arr === false) {
+    return undefined;
+  }
   var _iteratorNormalCompletion = true;
   var _didIteratorError = false;
   var _iteratorError = undefined;
 
   try {
     for (var _iterator = arr[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-      var arrValue = _step.value;
+      var element = _step.value;
 
-      output += arrValue[key];
+      if (element > check) {
+        check = element;
+      }
     }
   } catch (err) {
     _didIteratorError = true;
@@ -30,7 +35,7 @@ var sumByArray = function sumByArray(arr, key) {
     }
   }
 
-  return output;
+  return check;
 };
 
-exports.sumByArray = sumByArray;
+exports.max = max;
