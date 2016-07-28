@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import {default as edmm} = from '../edmm'
+import {default as edmm} from '../edmm'
 const uniq = edmm.uniq
 
 describe("uniq", () => {
@@ -10,7 +10,7 @@ describe("uniq", () => {
   })
 
   it('uniq from lodash', () => {
-    const arr = ['a', 'b', 'c']
+    const arr = ['a', 'b', 'c', 'a', 'b']
     const lodashUniq = _.uniq(arr)
     expect(uniq(arr) ).toEqual( lodashUniq )
   })
