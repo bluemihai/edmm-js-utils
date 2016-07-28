@@ -1,6 +1,6 @@
 'use strict'
 
-const allLowerCase = word => {
+const allUpperCase = word => {
   let output = ''
   for (let element of word) {
     let number = element.charCodeAt()
@@ -14,4 +14,4 @@ const allLowerCase = word => {
 }
 
 
-export { allLowerCase }
+export { allUpperCase }
