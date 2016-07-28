@@ -30,6 +30,9 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [ ] zip
 - [ ] repeat
 - [ ] join
+- [ ] isBoolean
+- [ ] lessThan
+- [ ] multiply
 
 ---
 
