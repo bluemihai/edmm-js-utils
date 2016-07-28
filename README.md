@@ -19,20 +19,28 @@ _List of specifications (specs) for the completed goal. These are declarative se
 
 ### List of the functions
 
-- [ ] firstLetterCapital
-- [ ] pick
-- [ ] random
-- [ ] reverseArray
-- [ ] sortedIndex
-- [ ] sumArray
-- [ ] sumByArray
-- [ ] trim
-- [ ] zip
-- [ ] repeat
-- [ ] join
-- [ ] isBoolean
-- [ ] lessThan
-- [ ] multiply
+- [ ] [firstLetterCapital](./src/spec/firstLetterCapitalSpec.js)
+- [ ] [isBoolean](./src/spec/isBooleanSpec.js)
+- [ ] [isOject](./src/spec/isOjectSpec.js)
+- [ ] [join](./src/spec/joinSpec.js)
+- [ ] [lessThan](./src/spec/lessThanSpec.js)
+- [ ] [multiply](./src/spec/multiplySpec.js)
+- [ ] [pick](./src/spec/pickSpec.js)
+- [ ] [pull](./src/spec/pullSpec.js)
+- [ ] [random](./src/spec/randomSpec.js)
+- [ ] [repeat](./src/spec/repeatSpec.js)
+- [ ] [reverseArray](./src/spec/reverseArraySpec.js)
+- [ ] [size](./src/spec/sizeSpec.js)
+- [ ] [SortedIndex](./src/spec/SortedIndexSpec.js)
+- [ ] [sumArray](./src/spec/sumArraySpec.js)
+- [ ] [sumByArray](./src/spec/sumByArraySpec.js)
+- [ ] [takeRight](./src/spec/takeRightSpec.js)
+- [ ] [take](./src/spec/takeSpec.js)
+- [ ] [trimEnd](./src/spec/trimEndSpec.js)
+- [ ] [trim](./src/spec/trimSpec.js)
+- [ ] [trimStart](./src/spec/trimStartSpec.js)
+- [ ] [zip](./src/spec/zipSpec.js)
+
 
 ---
 

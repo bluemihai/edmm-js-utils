@@ -1,16 +1,17 @@
 {
   "name": "edmm-js-utils",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "A collection of lodash functions developed by Learners Guild learners in week 3",
   "main": "dist/edmm.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "./node_modules/.bin/babel src -d dist -s --copy-files",
+    "build": "./node_modules/.bin/babel src -d dist --copy-files",
     "buildwatch": "babel src -w --out-dir dist --copy-files",
     "prepublish": "npm run build",
-    "test": "jasmine JASMINE_CONFIG_PATH=dist/spec/support/jasmine.json"
+    "test": "jasmine JASMINE_CONFIG_PATH=dist/spec/support/jasmine.json",
+    "start": "node dist/edmm.js"
   },
   "keywords": [],
   "contributors": [
