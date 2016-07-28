@@ -1,7 +1,20 @@
 'use strict'
 
-const pull = (arr, str) => {
+const pull = function(arr) {
+  const args = [...arguments]
 
+  arr.map((x) => {
+    args.map((s) => {
+      if(x === s){
+        let i = arr.indexOf(x)
+        if (i > -1) {
+          arr.splice(i, 1);
+        }
+      }
+    })
+  })
+
+  return arr
 }
 
 export { pull }
