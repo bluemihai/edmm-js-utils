@@ -7,7 +7,7 @@ const trim = (str, char) => {
     for(var j in char){
       if (str[i] !== char[j]) {
         check++
-        if (check === 2) {
+        if (check === char.length) {
           output += str[i]
         }
       }
