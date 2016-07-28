@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/edmm.js"],"names":[],"mappings":";;;;;;;AAAA;;QAES,kB","file":"edmm.js","sourcesContent":["import { firstLetterCapital } from './lib/firstLetterCapital'\n\nexport { firstLetterCapital }"]}
+{"version":3,"sources":["../src/edmm.js"],"names":[],"mappings":";;;;;;;AAAA;;AACA;;QAES,kB;QAAoB,S","file":"edmm.js","sourcesContent":["import { firstLetterCapital } from './lib/firstLetterCapital'\nimport { isBoolean } from './lib/isBoolean'\n\nexport { firstLetterCapital, isBoolean }\n"]}
