@@ -22,3 +22,4 @@ describe("take", function () {
     expect((0, _take.take)(arr)).toEqual([1]);
   });
 });
+//# sourceMappingURL=takeSpec.js.map

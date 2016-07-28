@@ -14,3 +14,4 @@ describe("isBoolean", function () {
     expect(edmm.isBoolean(isBool)).toEqual(false);
   });
 });
+//# sourceMappingURL=isBooleanSpec.js.map

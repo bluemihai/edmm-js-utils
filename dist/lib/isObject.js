@@ -15,3 +15,4 @@ var isObject = function isObject(val) {
 };
 
 exports.isObject = isObject;
+//# sourceMappingURL=isObject.js.map

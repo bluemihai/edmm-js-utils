@@ -12,3 +12,4 @@ var sumArray = function sumArray(arr) {
 };
 
 exports.sumArray = sumArray;
+//# sourceMappingURL=sumArray.js.map

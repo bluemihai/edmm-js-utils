@@ -18,3 +18,4 @@ var size = function size(object) {
 };
 
 exports.size = size;
+//# sourceMappingURL=size.js.map

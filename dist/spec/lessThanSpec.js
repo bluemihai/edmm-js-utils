@@ -22,3 +22,4 @@ describe("lessThan", function () {
     expect(edmm.lessThan(first, second)).toEqual(false);
   });
 });
+//# sourceMappingURL=lessThanSpec.js.map

@@ -19,3 +19,4 @@ var trimEnd = function trimEnd(str, char) {
 };
 
 exports.trimEnd = trimEnd;
+//# sourceMappingURL=trimEnd.js.map

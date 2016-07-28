@@ -16,3 +16,4 @@ var join = function join(arr, sep) {
 };
 
 exports.join = join;
+//# sourceMappingURL=join.js.map

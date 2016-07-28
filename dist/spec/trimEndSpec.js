@@ -21,3 +21,4 @@ describe("trim", function () {
     expect((0, _trimEnd.trimEnd)(str, char)).toEqual(lodashTrim);
   });
 });
+//# sourceMappingURL=trimEndSpec.js.map

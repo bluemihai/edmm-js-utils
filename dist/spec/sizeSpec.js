@@ -21,3 +21,4 @@ describe("size", function () {
     expect((0, _size.size)("majid")).toEqual(5);
   });
 });
+//# sourceMappingURL=sizeSpec.js.map

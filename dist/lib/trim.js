@@ -20,3 +20,4 @@ var trim = function trim(str, char) {
 };
 
 exports.trim = trim;
+//# sourceMappingURL=trim.js.map
