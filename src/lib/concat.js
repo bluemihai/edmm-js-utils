@@ -2,12 +2,11 @@
 
 export default function(arr){
   const args = [...arguments]
-
   args.map((x) => {
-    arr.push(x)
+    let i = args.indexOf(x)
+    if(i > 0){
+      arr.push(x)
+    }
   })
-
-  console.log('New Arr: ' + arr);
-
   return arr
 }
