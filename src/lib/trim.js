@@ -1,7 +1,6 @@
 'use strict'
 
 const trim = (str, char) => {
-<<<<<<< HEAD
   let output = ''
   for(var i in str){
     let check = 0
@@ -17,20 +16,5 @@ const trim = (str, char) => {
   return output
 }
 
-
-=======
- let arr = str.split('')
- let charArr = char.split('')
- arr.map((x) => {
-   charArr.map((y) => {
-      if(x === y){
-        arr.shift( x )
-        arr.pop( x )
-      }
-   })
- })
- return arr.join('')
-}
->>>>>>> 334f27e0b0c5e24815460fa3db2513c3da6ec6e3
 
 export { trim }
