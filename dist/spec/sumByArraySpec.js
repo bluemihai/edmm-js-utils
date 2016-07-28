@@ -18,3 +18,4 @@ describe("sumByArray", function () {
     expect(edmm.sumByArray(objects, key)).toEqual(lodashSumBy);
   });
 });
+//# sourceMappingURL=sumByArraySpec.js.map

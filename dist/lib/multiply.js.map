@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/lib/multiply.js"],"names":[],"mappings":"AAAA;;;;;AAEA,IAAM,WAAW,SAAX,QAAW,CAAC,KAAD,EAAQ,MAAR,EAAmB;AAClC,SAAQ,QAAQ,MAAhB;AACD,CAFD;;QAIS,Q,GAAA,Q","file":"multiply.js","sourcesContent":["'use strict'\n\nconst multiply = (first, second) => {\n  return (first * second)\n}\n\nexport { multiply }\n"]}

@@ -4,28 +4,20 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var trim = function trim(str, char) {
-  var arr = str.split('');
-  var charArr = char.split('');
-  var newArr = [];
-  var flag = false;
-  arr.map(function (x) {
-    charArr.map(function (y) {
-      console.log('Y is: ' + y);
-      if (x === y) {
-        flag = true;
+  var output = '';
+  for (var i in str) {
+    var check = 0;
+    for (var j in char) {
+      if (str[i] !== char[j]) {
+        check++;
+        if (check === char.length) {
+          output += str[i];
+        }
       }
-    });
-    if (!flag) {
-      newArr.push(x);
-      flag = false;
     }
-    // console.log(`X is: ${typeof x}`);
-  });
-  console.log('New Array: ' + newArr.join(''));
-  // if(number > 90){
-  //   arr[0] = String.fromCharCode(number - 32)
-  // }
-  return arr.join('');
+  }
+  return output;
 };
 
 exports.trim = trim;
+//# sourceMappingURL=trim.js.map

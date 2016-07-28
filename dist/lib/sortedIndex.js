@@ -14,3 +14,4 @@ var sortedIndex = function sortedIndex(arr, num) {
 };
 
 exports.sortedIndex = sortedIndex;
+//# sourceMappingURL=sortedIndex.js.map

@@ -3,7 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var take = function take(arr, num) {
+var take = function take(arr) {
+  var num = arguments.length <= 1 || arguments[1] === undefined ? 1 : arguments[1];
+
   var output = [];
   arr.forEach(ArrayFunc);
   function ArrayFunc(element, index, array) {
@@ -16,3 +18,4 @@ var take = function take(arr, num) {
 };
 
 exports.take = take;
+//# sourceMappingURL=take.js.map
