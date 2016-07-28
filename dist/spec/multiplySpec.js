@@ -19,4 +19,3 @@ describe("multiply", function () {
     expect(edmm.multiply(first, second)).toEqual(lodashMultiply);
   });
 });
-//# sourceMappingURL=multiplySpec.js.map

@@ -1,1 +1,1 @@
-import { firstLetterCapital } from 'lib/firstLetterCapital'
+import { firstLetterCapital } from './lib/firstLetterCapital'

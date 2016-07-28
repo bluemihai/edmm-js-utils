@@ -8,4 +8,3 @@ describe("sortedIndex", function () {
     expect(edmm.sortedIndex([30, 50], 40)).toEqual(1);
   });
 });
-//# sourceMappingURL=SortedIndexSpec.js.map

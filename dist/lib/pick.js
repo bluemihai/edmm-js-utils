@@ -12,4 +12,3 @@ var pick = function pick(obj, arr) {
 };
 
 exports.pick = pick;
-//# sourceMappingURL=pick.js.map

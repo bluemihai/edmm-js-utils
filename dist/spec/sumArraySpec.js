@@ -16,4 +16,3 @@ describe("sumArray", function () {
     expect(edmm.sumArray(a)).toEqual(lodashSum);
   });
 });
-//# sourceMappingURL=sumArraySpec.js.map

@@ -8,4 +8,3 @@ var multiply = function multiply(first, second) {
 };
 
 exports.multiply = multiply;
-//# sourceMappingURL=multiply.js.map

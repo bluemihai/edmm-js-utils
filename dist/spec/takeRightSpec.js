@@ -21,4 +21,3 @@ describe("takeRight", function () {
     expect((0, _takeRight.takeRight)([1, 2, 3, 4])).toEqual([4]);
   });
 });
-//# sourceMappingURL=takeRightSpec.js.map

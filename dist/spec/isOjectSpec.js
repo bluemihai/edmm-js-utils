@@ -14,4 +14,3 @@ describe("pick", function () {
     expect((0, _isObject.isObject)(str)).toEqual(false);
   });
 });
-//# sourceMappingURL=isOjectSpec.js.map

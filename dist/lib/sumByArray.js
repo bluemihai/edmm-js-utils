@@ -34,4 +34,3 @@ var sumByArray = function sumByArray(arr, key) {
 };
 
 exports.sumByArray = sumByArray;
-//# sourceMappingURL=sumByArray.js.map
