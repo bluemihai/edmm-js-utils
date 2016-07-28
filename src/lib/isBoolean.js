@@ -1,8 +1,9 @@
 'use strict'
 
-const join = (arg) => {
+const isBoolean = (arg) => {
 
-  return false
+  if (arg === (true || false)) {return true}
+  else {return false}
 }
 
 export { isBoolean }
