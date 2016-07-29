@@ -1,6 +1,7 @@
 ## Description
 
-Select a set of 15 lodash functions and rewrite them in JavaScript ES2015, using test-driven development, and publish the code as a package to NPM.
+Select a set of 35 lodash functions and rewrite them in JavaScript ES2015, using test-driven development, and publish the code as a package to NPM.
+[Package is available to download and install here.](https://www.npmjs.com/package/edmm-js-utils)
 ## Context
 
 Completing this goal will deepen our understanding of JavaScript and ES2015 and provide practice with the principles of Test Driven Development and NPM.
@@ -11,35 +12,35 @@ _List of specifications (specs) for the completed goal. These are declarative se
 
 ### Required
 
-- [ ] Rewrite 35 lodash functions in ES2015.
-- [ ] Publish package to NPM.
-- [ ] Write tests for the methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] Rewrite 35 lodash functions in ES2015.
+- [x] Publish package to NPM.
+- [x] Write tests for the methods described.
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 
 ### List of the functions
 
-- [ ] [firstLetterCapital](./src/spec/firstLetterCapitalSpec.js)
-- [ ] [isBoolean](./src/spec/isBooleanSpec.js)
-- [ ] [isOject](./src/spec/isOjectSpec.js)
-- [ ] [join](./src/spec/joinSpec.js)
-- [ ] [lessThan](./src/spec/lessThanSpec.js)
-- [ ] [multiply](./src/spec/multiplySpec.js)
-- [ ] [pick](./src/spec/pickSpec.js)
-- [ ] [pull](./src/spec/pullSpec.js)
-- [ ] [random](./src/spec/randomSpec.js)
-- [ ] [repeat](./src/spec/repeatSpec.js)
-- [ ] [reverseArray](./src/spec/reverseArraySpec.js)
-- [ ] [size](./src/spec/sizeSpec.js)
-- [ ] [SortedIndex](./src/spec/SortedIndexSpec.js)
-- [ ] [sumArray](./src/spec/sumArraySpec.js)
-- [ ] [sumByArray](./src/spec/sumByArraySpec.js)
-- [ ] [takeRight](./src/spec/takeRightSpec.js)
-- [ ] [take](./src/spec/takeSpec.js)
-- [ ] [trimEnd](./src/spec/trimEndSpec.js)
-- [ ] [trim](./src/spec/trimSpec.js)
-- [ ] [trimStart](./src/spec/trimStartSpec.js)
-- [ ] [zip](./src/spec/zipSpec.js)
+- [x] [firstLetterCapital](./src/spec/firstLetterCapitalSpec.js)
+- [x] [isBoolean](./src/spec/isBooleanSpec.js)
+- [x] [isOject](./src/spec/isOjectSpec.js)
+- [x] [join](./src/spec/joinSpec.js)
+- [x] [lessThan](./src/spec/lessThanSpec.js)
+- [x] [multiply](./src/spec/multiplySpec.js)
+- [x] [pick](./src/spec/pickSpec.js)
+- [x] [pull](./src/spec/pullSpec.js)
+- [x] [random](./src/spec/randomSpec.js)
+- [x] [repeat](./src/spec/repeatSpec.js)
+- [x] [reverseArray](./src/spec/reverseArraySpec.js)
+- [x] [size](./src/spec/sizeSpec.js)
+- [x] [SortedIndex](./src/spec/SortedIndexSpec.js)
+- [x] [sumArray](./src/spec/sumArraySpec.js)
+- [x] [sumByArray](./src/spec/sumByArraySpec.js)
+- [x] [takeRight](./src/spec/takeRightSpec.js)
+- [x] [take](./src/spec/takeSpec.js)
+- [x] [trimEnd](./src/spec/trimEndSpec.js)
+- [x] [trim](./src/spec/trimSpec.js)
+- [x] [trimStart](./src/spec/trimStartSpec.js)
+- [x] [zip](./src/spec/zipSpec.js)
 
 
 ---
