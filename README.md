@@ -4,9 +4,9 @@ Select a set of 35 lodash functions and rewrite them in JavaScript ES2015, using
 
 ## Installation
 - npm install edmm-js-utils --save
-- In index.js, 
+- In index.js,
  ```
-var edmm = require('edmm-js-utils').default; 
+var edmm = require('edmm-js-utils').default;
 ```
 ```
 console.log(edmm.uniq(['a', 'b', 'c', 'a', 'b'])); //tests uniq function
@@ -36,6 +36,7 @@ _List of specifications (specs) for the completed goal. These are declarative se
 - [x] [isBoolean](./src/spec/isBooleanSpec.js)
 - [x] [isOject](./src/spec/isOjectSpec.js)
 - [x] [join](./src/spec/joinSpec.js)
+- [x] [keys](./src/spec/keysSpec.js)
 - [x] [lessThan](./src/spec/lessThanSpec.js)
 - [x] [multiply](./src/spec/multiplySpec.js)
 - [x] [pick](./src/spec/pickSpec.js)
