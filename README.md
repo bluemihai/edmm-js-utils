@@ -5,11 +5,9 @@ Select a set of 35 lodash functions and rewrite them in JavaScript ES2015, using
 ## Installation
 - npm install edmm-js-utils --save
 - In index.js,
- ```
-var edmm = require('edmm-js-utils').default;
 ```
-```
-console.log(edmm.uniq(['a', 'b', 'c', 'a', 'b'])); //tests uniq function
+  var edmm = require('edmm-js-utils').default;
+  console.log(edmm.uniq(['a', 'b', 'c', 'a', 'b'])); //tests uniq function
 ```
 
 [Link to published NPM.](https://www.npmjs.com/package/edmm-js-utils)
