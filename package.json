@@ -1,10 +1,11 @@
 {
   "name": "edmm-js-utils",
-  "version": "0.9.8",
+  "version": "1.0.0",
   "description": "A collection of lodash functions developed by Learners Guild learners in week 3",
   "main": "dist/edmm.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "./node_modules/.bin/babel src -d dist --copy-files",
