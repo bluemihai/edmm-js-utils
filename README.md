@@ -1,7 +1,19 @@
 ## Description
 
 Select a set of 35 lodash functions and rewrite them in JavaScript ES2015, using test-driven development, and publish the code as a package to NPM.
-[Package is available to download and install here.](https://www.npmjs.com/package/edmm-js-utils)
+
+## Installation
+- npm install edmm-js-utils --save
+- In index.js, 
+ ```
+var edmm = require('edmm-js-utils').default; 
+```
+```
+console.log(edmm.uniq(['a', 'b', 'c', 'a', 'b'])); //tests uniq function
+```
+
+[Link to published NPM.](https://www.npmjs.com/package/edmm-js-utils)
+
 ## Context
 
 Completing this goal will deepen our understanding of JavaScript and ES2015 and provide practice with the principles of Test Driven Development and NPM.
