@@ -65,6 +65,14 @@ _List of specifications (specs) for the completed goal. These are declarative se
  - [x] [uniq](./src/spec/uniqSpec.js)
  - [x] [without](./src/spec/withoutSpec.js)
  - [x] [zip](./src/spec/zipSpec.js)
+ - 
+ 
+## Competencies Developed
+* JavaScript
+* npm publish
+* Testing + TDD
+* Jasmine specs
+* git
 
 <!-- LICENSE -->
 
